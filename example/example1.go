@@ -14,5 +14,5 @@ func main() {
 	amap.Delete("key1")
 	fmt.Println(amap.ContainsKey("key1"))
 	fmt.Println(amap.ContainsValue("value1"))
-
+	fmt.Println(amap.GetRandomKey())
 }

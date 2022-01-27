@@ -106,7 +106,7 @@ func (a *AMap) ToJSON() string {
 }
 
 // Get a random key from the map
-func GetRandomKey(a *AMap) string {
+func (a *AMap) GetRandomKey() string {
 	a.M.Lock()
 	defer a.M.Unlock()
 	keys := a.Keys()
@@ -114,7 +114,7 @@ func GetRandomKey(a *AMap) string {
 }
 
 // Get a random value from the map
-func GetRandomValue(a *AMap) interface{} {
+func (a *AMap) GetRandomValue() interface{} {
 	a.M.Lock()
 	defer a.M.Unlock()
 	values := a.Values()
