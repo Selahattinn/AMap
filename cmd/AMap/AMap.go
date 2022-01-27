@@ -1,6 +1,6 @@
 package main
 
 func main() {
-	amap := aMap.NewAMap()
+	amap := AMap.NewAMap()
 	amap.Set("key1", "value1")
 }
