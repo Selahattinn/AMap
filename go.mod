@@ -1,3 +1,3 @@
-module github.com/Selahattinn/AMap
+module github.com/Selahattinn/aMap
 
 go 1.17
