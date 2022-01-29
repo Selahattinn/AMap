@@ -93,6 +93,3 @@ func main() {
 	fmt.Println(amap.ToString())
 }
 ```
-## License
-
-BSD licensed. See the LICENSE file for details.
